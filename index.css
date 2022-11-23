@@ -48,8 +48,7 @@ h1 {
 
 #btn:hover {
     background-color: #9f00f2;
-    width: 20vw;
-    height: 16vh;
+   
     transition: 150ms;
 }
 
