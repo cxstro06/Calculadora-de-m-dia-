@@ -11,4 +11,18 @@ function somar() {
         document.getElementById ('media').innerHTML = valor
         var resultado = ( valor >= 60  ? 'você atingiu a média!' : 'Você não atingiu a média!')
         document.getElementById ('aprovado-reprovado').innerHTML = resultado
-}
+        
+        if (valor >= 60)  {
+                document.getElementById ('media').style.color = 'green'
+                document.getElementById ('aprovado-reprovado').style.color = 'green'
+                
+        }
+        
+        else {
+                document.getElementById ('media').style.color = 'red'
+                document.getElementById ('aprovado-reprovado').style.color = 'red'
+                                                          
+        }
+        
+        
+        }
